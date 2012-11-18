@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97E1DD11659977700BCA164 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E1DD01659977700BCA164 /* Tile.m */; };
 		EA856BEE16598616007BECD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BED16598616007BECD2 /* UIKit.framework */; };
 		EA856BF016598616007BECD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BEF16598616007BECD2 /* Foundation.framework */; };
 		EA856BF216598616007BECD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BF116598616007BECD2 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A97E1DCF1659977700BCA164 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		A97E1DD01659977700BCA164 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		EA856BE916598616007BECD2 /* WordDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA856BED16598616007BECD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA856BEF16598616007BECD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +75,8 @@
 		EA856BDE16598616007BECD2 = {
 			isa = PBXGroup;
 			children = (
+				A97E1DCF1659977700BCA164 /* Tile.h */,
+				A97E1DD01659977700BCA164 /* Tile.m */,
 				EA856C2C16598F16007BECD2 /* Cloud.h */,
 				EA856C2D16598F16007BECD2 /* Cloud.m */,
 				EA856C3016598F6B007BECD2 /* letterDrop.h */,
@@ -205,6 +210,7 @@
 				EA856C1216598616007BECD2 /* WordDropViewController.m in Sources */,
 				EA856C2E16598F16007BECD2 /* Cloud.m in Sources */,
 				EA856C3216598F6B007BECD2 /* letterDrop.m in Sources */,
+				A97E1DD11659977700BCA164 /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
