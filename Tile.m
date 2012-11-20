@@ -14,7 +14,7 @@
 -(id)init{
     self = [super init];
     val = -1;
-    letter = NULL;
+    letter = '0';
     pos = -1;
     
     return self;
@@ -23,7 +23,9 @@
 -(id)initWithChar:(char) l{
     self = [super init];
     letter = l;
-    val = -1;
+    val = -2;//so getVal can set val properly
+    int valTemp = [self getVal];
+    val = valTemp;
     pos = -1;
     
     return self;
@@ -47,7 +49,7 @@
 }
 
 -(int)getVal{
-    if(val ==-1)
+    if(val !=-1)
         return val;
     
     switch (letter) {
