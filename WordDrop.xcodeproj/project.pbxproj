@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		A97E1DD11659977700BCA164 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E1DD01659977700BCA164 /* Tile.m */; };
 		A97E1DD4165999DB00BCA164 /* LetterRack.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E1DD3165999DB00BCA164 /* LetterRack.m */; };
+		A97E1DD7165B23A600BCA164 /* WordRack.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E1DD6165B23A600BCA164 /* WordRack.m */; };
+		A97E1DD9166A7B1100BCA164 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1DD8166A7B1100BCA164 /* Property List.plist */; };
+		A97E1E03167A418B00BCA164 /* LetterRackReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E02167A418A00BCA164 /* LetterRackReadMe.txt */; };
 		EA856BEE16598616007BECD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BED16598616007BECD2 /* UIKit.framework */; };
 		EA856BF016598616007BECD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BEF16598616007BECD2 /* Foundation.framework */; };
 		EA856BF216598616007BECD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BF116598616007BECD2 /* CoreGraphics.framework */; };
@@ -33,6 +36,10 @@
 		A97E1DD01659977700BCA164 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		A97E1DD2165999DB00BCA164 /* LetterRack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterRack.h; sourceTree = "<group>"; };
 		A97E1DD3165999DB00BCA164 /* LetterRack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterRack.m; sourceTree = "<group>"; };
+		A97E1DD5165B23A600BCA164 /* WordRack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordRack.h; sourceTree = "<group>"; };
+		A97E1DD6165B23A600BCA164 /* WordRack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordRack.m; sourceTree = "<group>"; };
+		A97E1DD8166A7B1100BCA164 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		A97E1E02167A418A00BCA164 /* LetterRackReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LetterRackReadMe.txt; sourceTree = "<group>"; };
 		EA856BE916598616007BECD2 /* WordDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA856BED16598616007BECD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA856BEF16598616007BECD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,7 +87,11 @@
 			children = (
 				A97E1DCF1659977700BCA164 /* Tile.h */,
 				A97E1DD01659977700BCA164 /* Tile.m */,
+				A97E1DD5165B23A600BCA164 /* WordRack.h */,
+				A97E1DD6165B23A600BCA164 /* WordRack.m */,
+				A97E1DD8166A7B1100BCA164 /* Property List.plist */,
 				A97E1DD2165999DB00BCA164 /* LetterRack.h */,
+				A97E1E02167A418A00BCA164 /* LetterRackReadMe.txt */,
 				A97E1DD3165999DB00BCA164 /* LetterRack.m */,
 				EA856C2C16598F16007BECD2 /* Cloud.h */,
 				EA856C2D16598F16007BECD2 /* Cloud.m */,
@@ -200,6 +211,8 @@
 				EA856C0B16598616007BECD2 /* MainStoryboard.storyboard in Resources */,
 				EA856C0D16598616007BECD2 /* Shader.fsh in Resources */,
 				EA856C0F16598616007BECD2 /* Shader.vsh in Resources */,
+				A97E1DD9166A7B1100BCA164 /* Property List.plist in Resources */,
+				A97E1E03167A418B00BCA164 /* LetterRackReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +230,7 @@
 				EA856C3216598F6B007BECD2 /* letterDrop.m in Sources */,
 				A97E1DD11659977700BCA164 /* Tile.m in Sources */,
 				A97E1DD4165999DB00BCA164 /* LetterRack.m in Sources */,
+				A97E1DD7165B23A600BCA164 /* WordRack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

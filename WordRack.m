@@ -1,15 +1,15 @@
 //
-//  LetterRack.m
+//  WordRack.m
 //  WordDrop
 //
-//  Created by Patrick Dunshee on 11/18/12.
+//  Created by Joe Hargett on 11/19/12.
 //  Copyright (c) 2012 Tyler Hargett. All rights reserved.
 //
 
-#import "LetterRack.h"
+#import "WordRack.h"
 #import "Tile.h"
 
-@implementation LetterRack
+@implementation WordRack
 
 -(id)init{
     self = [super init];
@@ -24,7 +24,7 @@
     Tile* theTile = [[Tile alloc] initWithChar:(c)];
     
     for(int i = 0; i < 7; i++)
-        if(rack[i].getLetter == '0'){
+        if(rack[i].getLetter != '0'){
             rack[i] = theTile;
             return;
         }
