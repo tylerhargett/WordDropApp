@@ -12,12 +12,15 @@
 @interface WordRack : NSObject
 {
     Tile* rack[7];
+    int numLetters;
 }
 
 -(id)init;
 
--(void)receiveLetter:(char) c;
+-(int)receiveLetter:(char) c;//return 1 = there is space. return 0 = no space.
 
 -(char)giveLetter:(int) pos;
+
+-(char*)submitWord;
 
 @end

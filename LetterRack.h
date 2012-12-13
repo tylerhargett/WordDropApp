@@ -12,11 +12,12 @@
 @interface LetterRack : NSObject
 {
     Tile* rack[7];
+    int numLetters;
 }
 
 -(id)init;
 
--(void)receiveLetter:(char) c;
+-(int)receiveLetter:(char) c;
 
 -(char)giveLetter:(int) pos;
 

@@ -8,6 +8,7 @@
 
 #import "WordRack.h"
 #import "Tile.h"
+#import "WordBrain.h"
 
 @implementation WordRack
 
@@ -17,27 +18,58 @@
     for(int i = 0; i < 7; i++)
         rack[i] = [[Tile alloc] initWithChar:('0')];
     
+    numLetters = 0;
+    
     return self;
 }
 
--(void)receiveLetter:(char) c{
+-(int)receiveLetter:(char) c{
     Tile* theTile = [[Tile alloc] initWithChar:(c)];
     
     for(int i = 0; i < 7; i++)
         if(rack[i].getLetter != '0'){
             rack[i] = theTile;
-            return;
+            numLetters++;
+            return 1;
         }
     
-    //if no open spots, do something here
-    
+    //if no open spots, return 0
+    return 0;
     
 }
 
 -(char)giveLetter:(int) pos{
     
-    return rack[pos].getLetter;
+    char theLetter = rack[pos].getLetter;
     
+    for(int i = pos; i < numLetters; i++)
+        if(i != 6)
+            rack[i] = rack[i+1];
+        else 
+            rack[i] = [[Tile alloc] initWithChar:('0')];
+    
+    numLetters--;
+    
+    //signal to UI here to redisplay the rack
+    
+    return theLetter;
+}
+
+-(char*)submitWord{
+    char* word = "";
+    
+    for(int i = 0; i < 7; i++)
+        if(rack[i].getLetter != '0')
+            word+=rack[i].getLetter;
+    
+    word+='\0';
+    
+    //clears rack regardless of outcome
+    for(int i = 0; i < 7; i++)
+        rack[i] = [[Tile alloc] initWithChar:('0')];
+    numLetters = 0;
+    
+    return word;
 }
 
 @end

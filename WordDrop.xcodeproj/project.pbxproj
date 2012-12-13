@@ -12,6 +12,15 @@
 		A97E1DD7165B23A600BCA164 /* WordRack.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E1DD6165B23A600BCA164 /* WordRack.m */; };
 		A97E1DD9166A7B1100BCA164 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1DD8166A7B1100BCA164 /* Property List.plist */; };
 		A97E1E03167A418B00BCA164 /* LetterRackReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E02167A418A00BCA164 /* LetterRackReadMe.txt */; };
+		A97E1E06167A464F00BCA164 /* WordBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E1E05167A464F00BCA164 /* WordBrain.m */; };
+		A97E1E0D167A4F2800BCA164 /* TwoWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E07167A4F2800BCA164 /* TwoWords.plist */; };
+		A97E1E0E167A4F2800BCA164 /* ThreeWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E08167A4F2800BCA164 /* ThreeWords.plist */; };
+		A97E1E0F167A4F2800BCA164 /* FourWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E09167A4F2800BCA164 /* FourWords.plist */; };
+		A97E1E10167A4F2800BCA164 /* FiveWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E0A167A4F2800BCA164 /* FiveWords.plist */; };
+		A97E1E11167A4F2800BCA164 /* SixWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E0B167A4F2800BCA164 /* SixWords.plist */; };
+		A97E1E12167A4F2800BCA164 /* SevenWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E0C167A4F2800BCA164 /* SevenWords.plist */; };
+		A97E1E14167A5F9500BCA164 /* WordBrainReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E13167A5F9500BCA164 /* WordBrainReadMe.txt */; };
+		A97E1E16167A80FD00BCA164 /* WordRackReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = A97E1E15167A80FD00BCA164 /* WordRackReadMe.txt */; };
 		EA856BEE16598616007BECD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BED16598616007BECD2 /* UIKit.framework */; };
 		EA856BF016598616007BECD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BEF16598616007BECD2 /* Foundation.framework */; };
 		EA856BF216598616007BECD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BF116598616007BECD2 /* CoreGraphics.framework */; };
@@ -40,6 +49,16 @@
 		A97E1DD6165B23A600BCA164 /* WordRack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordRack.m; sourceTree = "<group>"; };
 		A97E1DD8166A7B1100BCA164 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		A97E1E02167A418A00BCA164 /* LetterRackReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LetterRackReadMe.txt; sourceTree = "<group>"; };
+		A97E1E04167A464F00BCA164 /* WordBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordBrain.h; sourceTree = "<group>"; };
+		A97E1E05167A464F00BCA164 /* WordBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordBrain.m; sourceTree = "<group>"; };
+		A97E1E07167A4F2800BCA164 /* TwoWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TwoWords.plist; path = ../Documents/BasicCalculator/PListWriter/TwoWords.plist; sourceTree = "<group>"; };
+		A97E1E08167A4F2800BCA164 /* ThreeWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ThreeWords.plist; path = ../Documents/BasicCalculator/PListWriter/ThreeWords.plist; sourceTree = "<group>"; };
+		A97E1E09167A4F2800BCA164 /* FourWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FourWords.plist; path = ../Documents/BasicCalculator/PListWriter/FourWords.plist; sourceTree = "<group>"; };
+		A97E1E0A167A4F2800BCA164 /* FiveWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FiveWords.plist; path = ../Documents/BasicCalculator/PListWriter/FiveWords.plist; sourceTree = "<group>"; };
+		A97E1E0B167A4F2800BCA164 /* SixWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SixWords.plist; path = ../Documents/BasicCalculator/PListWriter/SixWords.plist; sourceTree = "<group>"; };
+		A97E1E0C167A4F2800BCA164 /* SevenWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SevenWords.plist; path = ../Documents/BasicCalculator/PListWriter/SevenWords.plist; sourceTree = "<group>"; };
+		A97E1E13167A5F9500BCA164 /* WordBrainReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordBrainReadMe.txt; sourceTree = "<group>"; };
+		A97E1E15167A80FD00BCA164 /* WordRackReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordRackReadMe.txt; sourceTree = "<group>"; };
 		EA856BE916598616007BECD2 /* WordDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA856BED16598616007BECD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA856BEF16598616007BECD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,10 +108,20 @@
 				A97E1DD01659977700BCA164 /* Tile.m */,
 				A97E1DD5165B23A600BCA164 /* WordRack.h */,
 				A97E1DD6165B23A600BCA164 /* WordRack.m */,
+				A97E1E15167A80FD00BCA164 /* WordRackReadMe.txt */,
+				A97E1E04167A464F00BCA164 /* WordBrain.h */,
+				A97E1E05167A464F00BCA164 /* WordBrain.m */,
+				A97E1E13167A5F9500BCA164 /* WordBrainReadMe.txt */,
 				A97E1DD8166A7B1100BCA164 /* Property List.plist */,
 				A97E1DD2165999DB00BCA164 /* LetterRack.h */,
-				A97E1E02167A418A00BCA164 /* LetterRackReadMe.txt */,
 				A97E1DD3165999DB00BCA164 /* LetterRack.m */,
+				A97E1E02167A418A00BCA164 /* LetterRackReadMe.txt */,
+				A97E1E07167A4F2800BCA164 /* TwoWords.plist */,
+				A97E1E08167A4F2800BCA164 /* ThreeWords.plist */,
+				A97E1E09167A4F2800BCA164 /* FourWords.plist */,
+				A97E1E0A167A4F2800BCA164 /* FiveWords.plist */,
+				A97E1E0B167A4F2800BCA164 /* SixWords.plist */,
+				A97E1E0C167A4F2800BCA164 /* SevenWords.plist */,
 				EA856C2C16598F16007BECD2 /* Cloud.h */,
 				EA856C2D16598F16007BECD2 /* Cloud.m */,
 				EA856C3016598F6B007BECD2 /* letterDrop.h */,
@@ -213,6 +242,14 @@
 				EA856C0F16598616007BECD2 /* Shader.vsh in Resources */,
 				A97E1DD9166A7B1100BCA164 /* Property List.plist in Resources */,
 				A97E1E03167A418B00BCA164 /* LetterRackReadMe.txt in Resources */,
+				A97E1E0D167A4F2800BCA164 /* TwoWords.plist in Resources */,
+				A97E1E0E167A4F2800BCA164 /* ThreeWords.plist in Resources */,
+				A97E1E0F167A4F2800BCA164 /* FourWords.plist in Resources */,
+				A97E1E10167A4F2800BCA164 /* FiveWords.plist in Resources */,
+				A97E1E11167A4F2800BCA164 /* SixWords.plist in Resources */,
+				A97E1E12167A4F2800BCA164 /* SevenWords.plist in Resources */,
+				A97E1E14167A5F9500BCA164 /* WordBrainReadMe.txt in Resources */,
+				A97E1E16167A80FD00BCA164 /* WordRackReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +268,7 @@
 				A97E1DD11659977700BCA164 /* Tile.m in Sources */,
 				A97E1DD4165999DB00BCA164 /* LetterRack.m in Sources */,
 				A97E1DD7165B23A600BCA164 /* WordRack.m in Sources */,
+				A97E1E06167A464F00BCA164 /* WordBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
